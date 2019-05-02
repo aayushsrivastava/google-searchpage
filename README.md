@@ -1,3 +1,3 @@
-This is a small project to deconstruct an existing web page and rebuild it for the purpose of learning front-end design. As part of this I will try to reimplement the google search result page.
+This is a small project for the purpose of learning front-end design by observing an existing page and rebuilding it through plain CSS. This repository contains my implementation of a webpage that imitates google search result.
 
-This is just a personal project for learning purpose. All the names, images or any other properties mentioned in the web pages of this project belong to their rightful owners.
+This is just a personal project for learning purpose. Any names or images mentioned in the web pages of this project belong to their rightful owners.
