@@ -8,21 +8,23 @@
     <body>
         <div id="top-navbar">
             <div id="topbar">
-                <div id="gogole-logo">
+                <div id="google-logo" class="topbar-item">
                     <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" width="92" height="30">
                 </div>
-                <div id="search-field">
+                <div id="search-field" class="topbar-item">
                     <input type="text" value="css">
                 </div>
-                <div id="moreapps-button">
-                    <button>More</button>
-                </div>
-                <div id="signin-button">
-                    <button>Sign in</button>
+                <div id="topbar-right" class="topbar-item">
+                    <div id="moreapps-button" class="topbar-item">
+                        <button>More</button>
+                    </div>
+                    <div id="signin-button" class="topbar-item">
+                        <button>Sign in</button>
+                    </div>
                 </div>
             </div>
             <div id="navigation-links">
-                <div><a href="#">All</a></div>
+                <div id="active-tab"><a href="#">All</a></div>
                 <div><a href="#">Books</a></div>
                 <div><a href="#">Images</a></div>
                 <div><a href="#">News</a></div>
@@ -30,6 +32,69 @@
                 <div><a href="#">More</a></div>
                 <div><a href="#">Settings</a></div>
                 <div><a href="#">Tools</a></div>
+            </div>
+        </div>
+        <div id="sidebar">
+            <div id="related-images">
+
+            </div>
+            <div id="about" class="sidebar-content">
+                <div id="about-title">
+                    <h2>Cascading Style Sheets</h2>
+                    <p>Programming language</p>
+                </div>
+                <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. <a href="#">Wikipedia</a></p>
+                <p><a href="#"><strong>Developed by:</strong></a> <a href="#">Håkon Wium Lie</a>; <a href="#">Bert Bos</a>; <a href="#">World Wide Web Consortium</a></p>
+                <p><a href="#"><strong>Type of format:</strong></a> <a href="#">Style sheet language</a></p>
+                <p><a href="#"><strong>Initial release:</strong></a> <a href="#">December 17, 1996</a>; 22 years ago</p>
+            </div>
+            <div class="about-related sidebar-content">
+                <h3>CSS Software</h3>
+                <h4>View 40+ more</h4>
+                <div class="related-item">
+                    <img src="images/bootstrap.png" width="72px" height="72px">
+                    <a href="#">Bootstrap</a>
+                </div>
+                <div class="related-item">
+                    <img src="images/jQuery.jpeg" width="72px" height="72px">
+                    <a href="#">jQuery</a>
+                </div>
+                <div class="related-item">
+                    <img src="images/font-awesome.png" width="72px" height="72px">
+                    <a href="#">Font Awesome</a>
+                </div>
+                <div class="related-item">
+                    <img src="images/brackets.jpeg" width="72px" height="72px">
+                    <a href="#">Brackets</a>
+                </div>
+                <div class="related-item">
+                    <img src="images/angularjs.png" width="72px" height="72px">
+                    <a href="#">AngularJS</a>
+                </div>
+            </div>
+            <div class="about-related sidebar-content">
+                <h3>People also search for</h3>
+                <h4>View 15+ more</h4>
+                <div class="related-item">
+                    <img src="images/html.png" width="72px" height="72px">
+                    <a href="#">HTML</a>
+                </div>
+                <div class="related-item">
+                    <img src="images/javascript.png" width="72px" height="72px">
+                    <a href="#">JavaScript</a>
+                </div>
+                <div class="related-item">
+                    <img src="images/sass.png" width="72px" height="72px">
+                    <a href="#">Sass</a>
+                </div>
+                <div class="related-item">
+                    <img src="images/php.png" width="72px" height="72px">
+                    <a href="#">PHP</a>
+                </div>
+                <div class="related-item">
+                    <img src="images/html5.jpeg" width="72px" height="72px">
+                    <a href="#">HTML5</a>
+                </div>
             </div>
         </div>
         <div id="main-content">
@@ -170,69 +235,6 @@
             </div>
             <div id="search-pages">
                 1 2 3 4 5 6 7 ...
-            </div>
-        </div>
-        <div id="sidebar">
-            <div id="related-images">
-
-            </div>
-            <div id="about">
-                <div id="about-title">
-                    <h2>Cascading Style Sheets</h2>
-                    <p>Programming language</p>
-                </div>
-                <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. <a href="#">Wikipedia</a></p>
-                <p><strong>Developed by:</strong> Håkon Wium Lie; Bert Bos; World Wide Web Consortium</p>
-                <p><strong>Type of format:</strong> Style sheet language</p>
-                <p><strong>Initial release:</strong> December 17, 1996; 22 years ago</p>
-            </div>
-            <div class="about-related">
-                <h3>CSS Software</h3>
-                <h4>View 40+ more</h4>
-                <div class="related-item">
-                    <img src="images/bootstrap.png" width="72px" height="72px">
-                    <a href="#">Bootstrap</a>
-                </div>
-                <div class="related-item">
-                    <img src="images/jQuery.jpeg" width="72px" height="72px">
-                    <a href="#">jQuery</a>
-                </div>
-                <div class="related-item">
-                    <img src="images/font-awesome.png" width="72px" height="72px">
-                    <a href="#">Font Awesome</a>
-                </div>
-                <div class="related-item">
-                    <img src="images/brackets.jpeg" width="72px" height="72px">
-                    <a href="#">Brackets</a>
-                </div>
-                <div class="related-item">
-                    <img src="images/angularjs.png" width="72px" height="72px">
-                    <a href="#">AngularJS</a>
-                </div>
-            </div>
-            <div class="about-related">
-                <h3>People also search for</h3>
-                <h4>View 15+ more</h4>
-                <div class="related-item">
-                    <img src="images/html.png" width="72px" height="72px">
-                    <a href="#">HTML</a>
-                </div>
-                <div class="related-item">
-                    <img src="images/javascript.png" width="72px" height="72px">
-                    <a href="#">JavaScript</a>
-                </div>
-                <div class="related-item">
-                    <img src="images/sass.png" width="72px" height="72px">
-                    <a href="#">Sass</a>
-                </div>
-                <div class="related-item">
-                    <img src="images/php.png" width="72px" height="72px">
-                    <a href="#">PHP</a>
-                </div>
-                <div class="related-item">
-                    <img src="images/html5.jpeg" width="72px" height="72px">
-                    <a href="#">HTML5</a>
-                </div>
             </div>
         </div>
         <div id="footer">
