@@ -240,6 +240,10 @@ body {
     color: #1a0dab;
 }
 
+#related-searches td a:hover {
+    text-decoration-line: underline;
+}
+
 #related-searches strong {
     font-weight: bold;
 }
@@ -260,9 +264,12 @@ body {
     display: flex;
 }
 
+#search-pages div {
+    font-size: 0.9em;
+}
+
 #search-pages div a {
     color: #4285f4;
-    font-size: 0.8em;
 }
 
 #search-pages div a:hover {
@@ -273,3 +280,71 @@ body {
     padding-right: 10px;
 }
 
+#search-pages div.next-page {
+    margin-left: 30px;
+}
+
+/****************** FOOTER *********************/
+
+#footer {
+    background-color: rgb(242, 242, 242);
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+
+#footer #region {
+    padding: 15px 160px;
+    margin-bottom: 15px;
+    color: rgba(0,0,0,.54);
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 0.9em;
+}
+
+#footer #region div {
+    display: inline;
+    padding: 5px 0;
+}
+
+#footer #region #country {
+    padding-right: 10px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+#footer #region strong {
+    font-weight: bold;
+    color: #333;
+}
+
+#footer #region #location {
+    color: rgb(95, 99, 104);
+    padding-left: 15px;
+    font-size: 0.9em;
+}
+
+#footer #region #location::before {
+    content: "";
+    background-color: #9e9e9e;
+    padding: 0 8px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+#footer .bottom-link {
+    display: inline;
+    padding: 15px 10px;
+    font-size: 0.8em;
+}
+
+#footer .leftmost-bottom-link {
+    padding-left: 160px;
+}
+
+#footer a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+#footer  a:hover {
+    color: #333;
+}
